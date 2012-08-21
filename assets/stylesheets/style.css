@@ -1,0 +1,147 @@
+/*login style starts here*/
+
+
+a {
+	
+	text-decoration: underline;
+	cursor: pointer;
+}
+input::-webkit-input-placeholder {
+	color: gray;
+	font-family: 'proxima nova';
+	font-size: 15px;	
+}
+input[type=text] {
+	
+	font-family: 'proxima nova';
+	font-size: 15px;	
+	color: black;
+}
+.font-size-14 {
+	
+	font-size: 14px;
+}
+.site-logo img {
+	
+	padding: 3px 0;
+	position: relative;
+	left: 3px;
+}
+#site_login h1{
+	
+	font-family: 'proxima nova';
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 40px;
+}
+#site_login h2 {
+	
+	font-family: 'Forte';
+	font-size: 24px;
+}
+#login_btn {
+	position: relative;
+	top: -12px;
+	width: 142px;
+}
+/*login style ends here*/
+
+/*footer style ends here*/
+
+#footer {
+	
+	background-color: black; 
+	color: white; 
+	font-size: 14px; 
+	padding: 2px 0;
+}
+#footer p {
+	
+	position: relative;
+	left: 2px;
+}
+/*footer style ends here*/
+
+
+/*staff view style starts here*/
+
+.site-header {
+	
+	background-color: #2bb7ec;
+	padding: 5px 0;
+}
+#site_top_nav {
+	
+	position: relative;
+	top: 14px;
+	right: 5px;
+}
+
+#site_top_nav li{
+	
+	display: inline;
+	margin-left: 5px;
+}
+#site_top_nav li a {
+	
+	text-decoration: none;
+}
+#profile_tab {
+	
+	margin: 0 auto; 
+	width: 50%; 
+	margin-top: 10px;
+}
+.profile-name {
+	
+	padding-top: 5px; 
+	font-size: 14px; 
+	font-style: italic; 
+	color: white;
+}
+#sidebar_nav li{
+	
+	margin-bottom: 35px;
+	padding-left: 10px;
+}
+#sidebar_nav li a {
+	
+	color: white;
+	text-decoration: none;
+}
+.post {
+	
+	font-size: 14px;
+}
+.post ul {
+	
+	margin-bottom: 20px;
+}
+.post-title {
+	font-family: "proxima nova";
+	font-size: 17px;
+	font-weight: bold;
+}
+.post-subtitle {
+	
+	font-size: 14px;
+	position: relative;
+	top: -7px;
+}
+/*staff view style ends here*/
+
+
+/*room tasking view style starts here*/
+#comments::-webkit-input-placeholder {
+	
+	font-size: 14px;
+}
+
+/*room tasking view style ends here*/
+
+
+
+
+
+
+
