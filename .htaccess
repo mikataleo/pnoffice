@@ -1,7 +1,7 @@
 #RewriteEngine on
 #RewriteCond $1 !^(index\.php)
 #RewriteRule ^(.*)$ /index.php/$1 [L,QSA]
-DirectoryIndex index.php
+#DirectoryIndex index.php
 RewriteEngine on
 RewriteCond $1 !^(index\.php|images|css|js|robots\.txt|favicon\.ico)
 RewriteCond %{REQUEST_FILENAME} !-f
